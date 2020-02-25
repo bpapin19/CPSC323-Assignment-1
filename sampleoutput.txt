@@ -1,0 +1,43 @@
+***************************
+ LEXICAL ANALYZER 
+***************************
+Token              Lexeme
+-------------------------
+KEYWORD            int
+IDENTIFIER         num1
+SEPARATOR          ,
+IDENTIFIER         num2
+SEPARATOR          ,
+IDENTIFIER         large$
+KEYWORD            if
+SEPARATOR          (
+IDENTIFIER         num1
+OPERATOR           >
+IDENTIFIER         num2
+SEPARATOR          )
+SEPARATOR          {
+IDENTIFIER         large
+OPERATOR           =
+IDENTIFIER         num1$
+SEPARATOR          ;
+SEPARATOR          }
+KEYWORD            else
+SEPARATOR          {
+KEYWORD            int
+IDENTIFIER         arr
+SEPARATOR          [
+SEPARATOR          ]
+OPERATOR           =
+SEPARATOR          {
+REAL               1.32
+SEPARATOR          ,
+REAL               2.5
+SEPARATOR          ,
+INTEGER            300000
+SEPARATOR          }
+SEPARATOR          ;
+IDENTIFIER         large
+OPERATOR           =
+IDENTIFIER         num2$
+SEPARATOR          ;
+SEPARATOR          }

@@ -1,0 +1,12 @@
+! Find largest value between two numbers!
+int num1, num2, large$
+if(num1 > num2)
+{
+large = num1$;
+}
+! this is a block comment !
+else
+{
+int arr[] = {1.32, 2.5, 300000};
+large = num2$;
+}
